@@ -3,4 +3,4 @@ function getComputerChoice(){
     let choice = Math.floor(Math.random() * 3);
     return choices[choice];
 };
-getComputerChoice();
+console.log(getComputerChoice());
