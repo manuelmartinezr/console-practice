@@ -1,1 +1,6 @@
-console.log("i stay running on ya mind. you'll think o'me fureva")
+function getComputerChoice(){
+    let choices = ["rock", "paper", "scissors"];
+    let choice = Math.floor(Math.random() * 3);
+    return choices[choice];
+};
+getComputerChoice();
